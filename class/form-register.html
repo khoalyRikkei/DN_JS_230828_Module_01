@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Form đăng ký</h1></header>
+    <button><a href="/">Home</a></button>
+    <br />
+    <br />
+    <main>
+      <form action="./test.html">
+        <div class="input-group">
+          <label for="name">Họ và tên (*)</label>
+          <input type="text" id="name" name="name"/>
+          <br />
+          <br />
+        </div>
+
+        <div class="input-group">
+          <label for="username">Tên đăng nhập (*)</label>
+          <input type="text" id="username"name="username" />
+          <br />
+          <br />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Mật khẩu (*)</label>
+          <input type="password" id="password"  name="password"/>
+          <br />
+          <br />
+        </div>
+        <div class="input-group">
+          <label for="repeat-password">Nhập lại Mật khẩu (*)</label>
+          <input type="password" id="repeat-password" name="repeatPassword" />
+          <br />
+          <br />
+        </div>
+
+        <div class="input-group">
+          <label for="gender">Giới tính (*)</label>
+          <input type="radio" id="gender" name="gender" value="male" />
+          <label for="gender">Nam</label>
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">Nữ</label>
+          <br />
+          <br />
+        </div>
+
+        <input type="submit" value="Gửi" />
+        <input type="reset" value="Hủy" />
+      </form>
+    </main>
+  </body>
+</html>
