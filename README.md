@@ -22,6 +22,20 @@
 <!-- Test -->
 <!-- Hello world -->
 
+<!-- Chuyển branch -->
+
+### Tạo branch mới
+
+git checkout -b <ten_branch>
+//Ex
+git checkout -b session_03_TH
+
+### Chuyển Branch
+
+git checkout <ten_branch>
+//Ex
+git checkout session_03_TH
+
 ## Clone code
 
 - git clone <link_repo>
