@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      li {
+        color: green;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header><h1>Session 04 - CSS Basic</h1></header>
+    <main>
+      <!-- Cách nhúng CSS vào HTML -->
+      <section>
+        <h3>Các cách đưa CSS vào HTML</h3>
+        <ol>
+          <li>
+            Hello
+            <p style="color: red; background-color: yellow">Đưa inline CSS</p>
+          </li>
+          <li style="color: black">Internal CSS</li>
+          <li class="text-red">External</li>
+        </ol>
+      </section>
+
+      <!-- Các bộ chọn trong CSS -->
+      <section>
+        <h3>Bộ chọn trong CSS</h3>
+        <a
+          href="https://www.w3schools.com/css/css_selectors.asp"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Các bộ chọn</a
+        >
+
+        <ol>
+          <li>
+            <details>
+              <summary>Bộ chọn cơ bản</summary>
+              <ul>
+                <li id="first-selector">id</li>
+                <li class="text-red">class</li>
+                <li>tagname</li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Combinator Selector</summary>
+              <ul id="combinator">
+                <li id="first-selector">descendant selector - hậu duệ</li>
+                <li class="text-red">child selector</li>
+                <li><p>adjacent sibling selector</p></li>
+                <li>
+                  <span> general sibling selector</span>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </section>
+
+      <!-- Display inline - block -->
+      <section>
+        <h3>Các loại hiển thị</h3>
+        <ul>
+          <li>inline</li>
+          <li>inline-block</li>
+        </ul>
+        <div class="display-inline">Hello</div>
+        <div class="display-inline">Xin chào lớp</div>
+
+        <div class="box">
+          <div class="dib"></div>
+          <div class="dib"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Bài thực hành</h3>
+        <button>
+          <a href="./lab/lab-1/">Bài tập 1</a>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>

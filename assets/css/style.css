@@ -1,0 +1,46 @@
+/* id selector */
+#first-selector {
+  color: orange;
+}
+
+/* class */
+
+.text-red {
+  color: #442323;
+}
+/* tag name */
+li {
+  color: blue;
+}
+
+/* Hậu duệ */
+#combinator li p {
+  background-color: aqua;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: right;
+  text-decoration: none;
+}
+
+p ~ span {
+}
+
+.display-inline {
+  display: inline;
+
+  width: 330px;
+  padding: 20px;
+  margin: 30px;
+}
+
+/* display inline-block */
+* {
+  box-sizing: border-box;
+}
+.dib {
+  display: inline-block;
+  border: 2px solid green;
+  width: 49%;
+  height: 200px;
+}
