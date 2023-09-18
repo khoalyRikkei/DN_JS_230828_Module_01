@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap");
+
+/* General CSS */
+
+:root {
+  --color-linear: linear-gradient(93.25deg, #0098ff 4.45%, #7c34c8 93.88%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-image: url("https://opencart.workdo.io/gaming/image/cache/catalog/slider/slider-1920x715.jpg");
+  background-size: fill;
+  background-repeat: no-repeat;
+  height: 3000px;
+}
+
+.container {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-image: var(--color-linear);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: max-content;
+}
+
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(122, 121, 121, 0.397);
+}
+
+.navbar > .container {
+  display: flex;
+  justify-content: space-between;
+  /* font-size: 30px; */
+}
