@@ -1,0 +1,31 @@
+.body {
+  display: flex;
+  justify-content: space-around;
+}
+.header {
+  padding: 20px;
+  background-color: aquamarine;
+}
+.nav {
+  padding: 20px;
+  background-color: bisque;
+}
+.left {
+  padding: 120px;
+  background-color: burlywood;
+}
+.center {
+  padding: 120px;
+  background-color: rgb(192, 32, 168);
+}
+.rigth {
+  padding: 120px;
+  background-color: rgb(27, 137, 227);
+}
+/* .body {
+  background-color: brown;
+} */
+.footer {
+  padding: 20px;
+  background-color: cadetblue;
+}
