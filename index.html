@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+
+      fieldset,
+      legend {
+        border: 2px solid green;
+        border-radius: 8px;
+      }
+      legend {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Mảng</h1></header>
+
+    <main>
+      <fieldset>
+        <legend>Khai báo mảng</legend>
+        <h3>Ví dụ</h3>
+        <button onclick="ex_1()">Click</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Kiểu dữ liệu tham chiếu</legend>
+        <h3>Ví dụ</h3>
+        <button onclick="ex_2()">Click</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mảng 2 chiều</legend>
+        <h3>Bảng cửu chương</h3>
+        <button onclick="ex_3()">Click</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Create</legend>
+        <h3>Thêm phần tử vào mảng</h3>
+        <button onclick="ex_4()">Push</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Read</legend>
+        <h3>Duyệt phần tử trong mảng</h3>
+        <button onclick="ex_5()">Click</button>
+      </fieldset>
+      <fieldset>
+        <legend>Bài tập mảng đơn giản</legend>
+        <h3>Tạo 1 mảng rỗng, dùng hàm prompt() để thêm giá trị vào cho mảng</h3>
+        <button onclick="lab_1()">Click</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Bài tập mảng đơn giản</legend>
+        <h3>Đảo mảng</h3>
+        <button onclick="lab_2()">Click</button>
+      </fieldset>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
