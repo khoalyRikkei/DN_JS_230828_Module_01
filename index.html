@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 50px;
+      }
+
+      fieldset {
+        border: 2px solid grey;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      legend {
+        padding: 5px;
+        border: 2px solid grey;
+      }
+
+      button {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Session 13 - Function</h1>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Function</legend>
+        <h3>Ví dụ function</h3>
+
+        <button onclick="ex_1()">Click</button>
+
+        <button onclick="ex_2()">Tính tổng</button>
+        <button onclick="ex_3()">Change status</button>
+
+        <button onclick="ex_4()">Return function</button>
+
+        <button onclick="ex_5()">Tính bình phương</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Các loại function</legend>
+        <h3>Ví dụ function</h3>
+
+        <button onclick="ex_6()">Arrow function</button>
+
+        <button onclick="ex_7()">Đối số argument</button>
+        <button onclick="ex_8()">Rest param</button>
+        <!-- <button onclick="ex_9()">Test</button> -->
+      </fieldset>
+
+      <fieldset>
+        <legend>Các loại function</legend>
+        <h3>Bài tập</h3>
+        <p>
+          Cho chuỗi dài hơn 15 ký tự, viết function cắt chuỗi, lấy ra 10 ký tự
+          đầu tiên và thêm vào dấu “…” ở cuối chuỗi
+        </p>
+        <button onclick="lab_1()">Nhập</button>
+
+        <!-- <button onclick="ex_9()">Test</button> -->
+      </fieldset>
+
+      <fieldset>
+        <legend>Các loại function</legend>
+        <h3>Bài tập</h3>
+        <p>
+          Viết function chuẩn hóa một từ - chỉ viết hoa chữ cái đầu tiên. Ví dụ:
+          “rIkKEi” sau khi chuẩn hóa thành “Rikkei”
+        </p>
+        <button onclick="lab_2()">Nhập</button>
+
+        <!-- <button onclick="ex_9()">Test</button> -->
+      </fieldset>
+    </main>
+
+    <script src="./script.js"></script>
+
+    <script src="./lab.js"></script>
+  </body>
+</html>
