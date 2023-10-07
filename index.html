@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      fieldset,
+      legend {
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px rgba(158, 158, 158, 0.587);
+        padding: 10px;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .circle {
+        border-radius: 50%;
+      }
+
+      .box {
+        width: 300px;
+        height: 300px;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Session 15 - DOM & Event</h1>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Bài tập về nhà</legend>
+        <h3>Bài 7</h3>
+
+        <button onclick="handleAdd()">Add new Book</button>
+        <button onclick="handleRender()">Display book</button>
+        <button onclick="handleUpdate()">Cập nhật sách</button>
+        <button onclick="handleDelete()">xóa sách</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Truy vấn phần tử</legend>
+
+        <h3 id="title">
+          <fieldset><legend>Hello</legend></fieldset>
+        </h3>
+
+        <button onclick="ex_1()">Click id</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Truy vấn phần tử</legend>
+
+        <h3 id="title-2">
+          <p>Hello các bạn JS ĐN</p>
+          <p>Hello các bạn JS ĐN 1</p>
+          <p>Hello các bạn JS ĐN 2</p>
+          <p>Hello các bạn JS ĐN 3</p>
+        </h3>
+
+        <button onclick="ex_2()">Click id</button>
+        <button onclick="ex_3()">Click selector All</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Thêm sửa xóa phần tử</legend>
+
+        <button onclick="ex_4()">Click</button>
+        <p id="result-4"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sự kiện chuột</legend>
+
+        <button onclick="ex_5()">Click</button>
+        <p id="result-4"></p>
+        <div class="box"></div>
+
+        <ul id="box-2">
+          <li>Tuấn</li>
+          <li>Tiến</li>
+
+          <li>Nguyên</li>
+
+          <li>Trân</li>
+        </ul>
+
+        <input type="text" id="input-keydown" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Bài tập 1</legend>
+        <h3>Vẽ hình tròn theo kích thước và màu sắc nhập từ bàn phím</h3>
+
+        <div class="circle"></div>
+
+        <button onclick="lab_1()">Click</button>
+      </fieldset>
+      <fieldset id="lab_2">
+        <legend>Bài tập 2</legend>
+        <h3>Thêm tên người yêu cũ</h3>
+
+        <div class="control">
+          <input type="text" id="input-ex" />
+          <button onclick="lab_2()">Click</button>
+        </div>
+
+        <ol id="list-ex"></ol>
+      </fieldset>
+    </main>
+    <script src="./script.js"></script>
+    <script src="./home/script.js"></script>
+  </body>
+</html>
